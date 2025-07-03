@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Hero from "./home-page/Hero";
-import About from "./home-page/about";
+import About from "./home-page/About";
 import Service from "./home-page/service";
 import Faq from "./home-page/Faq";
 import ContactForm from "./home-page/ContactForm";
