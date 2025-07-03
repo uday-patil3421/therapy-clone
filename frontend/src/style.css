@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dr-name {
+  @apply lg:h-20 lg:w-[23%] lg:mx-0 h-[80%] w-[80%] mx-auto mt-6
+  /* height: 62px;
+  width: 246px; */;
+}
+
+body {
+  background-color: #f6f2f0;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.app {
+  overflow-x: hidden;
+}
+
+.first-image {
+  @apply lg:bg-[url(assets/first-image.jpg)] lg:h-[100vh] lg:w-full lg:bg-cover lg:mt-9  flex flex-col lg:text-center lg:justify-center lg:px-28 bg-cover mt-2 px-4 bg-[url(assets/first-image2.jpg)];
+}
+
+.first-image-text {
+  @apply font-serif text-white lg:text-6xl lg:font-medium text-4xl font-semibold mt-10 text-center;
+}
+
+.paragraph p {
+  @apply mt-6;
+}
+
+.hr-line {
+  @apply h-16 w-[90%];
+  border-top: 1.8px solid #9a9a84;
+}
+
+.src-text {
+  line-height: 34px;
+}
+
+.src-img {
+  @apply lg:h-72 lg:w-72 object-cover rounded-full mx-auto h-80 w-80;
+}
+
+.src-h1 {
+  @apply font-serif text-2xl text-[#5c5c5c] my-5;
+}
+
+.service p {
+  color: #605f5f;
+}
+
+.faq-h2 {
+  @apply font-serif text-[#5c5c5c] lg:my-5;
+}
+
+.form-ctr {
+  @apply border border-gray-300 mb-1.5 rounded-md p-[5px] w-full focus:outline-none;
+}
